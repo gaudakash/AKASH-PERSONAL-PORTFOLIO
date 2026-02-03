@@ -51,8 +51,8 @@ export const About = () => {
               <p>
                 Front-end code is my playground. At 25, I turn mock-ups into
                 smooth, responsive sites with HTML, CSS, JavaScript and React.
-                The past 6 months I’ve been building WordPress themes that load
-                fast and feel great.
+                The past 2 Years  I’ve been building WordPress themes that load
+                fast and feel great. along with that i explore full stack technologies.
               </p>
               <p>
                 I specialize in React, Next.js, and TypeScript, building

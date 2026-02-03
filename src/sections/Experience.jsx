@@ -1,12 +1,21 @@
 const experiences = [
-   {
-    period: "2026(Jan) — Present",
+  {
+    period: "2026(Jan) — present",
+    role: "Web developer ",
+    company: "Siddhagiri Metals & Tubes Pvt. Ltd",
+    description:
+      "Working on Ecommerce website on shopyfy as well as other variou sproject and explore frontend & Backend logic to make it more efficient. & real time B2B project experience.",
+    technologies: ["Shopify", "JavaScript", "Wordpress", "AI Tools", "Tailwind CSS"],
+    current: true,
+  },
+  {
+    period: "2026(Jan) — 2026(Feb)",
     role: "React.js Web Development Internship",
     company: "CODTECH IT SOLUTIONS PVT.LTD",
     description:
       "Built React-based UI components with a focus on state management, responsive design, and clean frontend code practices.",
-    technologies: ["React", "JavaScript", "Canva", "AI Tools" , "Tailwind CSS"],
-    current: true,
+    technologies: ["React", "JavaScript", "Canva", "AI Tools", "Tailwind CSS"],
+    current: false,
   },
   {
     period: "2025(May) — 2025(Dec)",
