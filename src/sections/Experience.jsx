@@ -26,15 +26,16 @@ const experiences = [
     technologies: ["Wordpress", "CMS", "Canva", "AI Tools"],
     current: false,
   },
-  {
-    period: "2023(Jan) — 2024(May)",
+   {
+    period: "2023(May) — 2024(May)",
     role: "Cashier",
     company: "DMART PVT.LTD",
     description:
-      "Billing And Maintain cash during working hours, providing excellent customer service, and ensuring accurate transactions at the point of sale.",
-    technologies: ["POS Systems", "Customer Service", "Cash Handling"],
+      "Handling customer transactions efficiently, managing cash registers, and providing excellent customer service in a fast-paced retail environment.",
+    technologies: ["POS Systems", "Customer Service", "Inventory Management"],
     current: false,
   },
+
 ];
 
 export const Experience = () => {
