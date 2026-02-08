@@ -18,7 +18,7 @@ const experiences = [
     current: false,
   },
   {
-    period: "2025(May) — 2025(Dec)",
+    period: "2024(May) — 2025(Dec)",
     role: "Wordpress Web Developer",
     company: "MCM BPO pvt ltd",
     description:
@@ -27,12 +27,12 @@ const experiences = [
     current: false,
   },
   {
-    period: "2025(Jan) — 2025(Fab)",
-    role: "Web Designer & Frontend Developer",
-    company: "Miracle Solutions pvt ltd",
+    period: "2023(Jan) — 2024(May)",
+    role: "CASHIER",
+    company: "DMART pvt ltd",
     description:
-      "Built responsive templates using Bootstrap framework and mobile-first architecture principle",
-    technologies: ["Html5", "JavaScript", "Adobe Tools", "Figma"],
+      "Billing And Maintain cash during working hours, providing excellent customer service, and ensuring accurate transactions at the point of sale.",
+    // technologies: ["Html5", "JavaScript", "Adobe Tools", "Figma"],
     current: false,
   },
 ];
