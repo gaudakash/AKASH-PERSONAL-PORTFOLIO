@@ -1,10 +1,10 @@
 const experiences = [
   {
     period: "2026(Jan) — present",
-    role: "Web developer ",
-    company: "Siddhagiri Metals & Tubes Pvt. Ltd",
+    role: "Web developer",
+    company: "Siddhagiri Metals & Tubes PVT.LTD",
     description:
-      "Working on Ecommerce website on shopyfy as well as other variou sproject and explore frontend & Backend logic to make it more efficient. & real time B2B project experience.",
+      "Full-Stack eCommerce Developer with extensive experience building and optimizing Shopify storefronts. Proven track record in developing complex B2B logic and real-time system integrations to enhance operational efficiency. Adept at bridging frontend user experiences with robust backend architecture to drive performance and scalability. ",
     technologies: ["Shopify", "JavaScript", "Wordpress", "AI Tools", "Tailwind CSS"],
     current: true,
   },
@@ -20,7 +20,7 @@ const experiences = [
   {
     period: "2024(May) — 2025(Dec)",
     role: "Wordpress Web Developer",
-    company: "MCM BPO pvt ltd",
+    company: "MCM BPO PVT.LTD",
     description:
       "working as a Wordpress developer, creating custom themes and plugins, optimizing website performance, and ensuring responsive design across various devices.",
     technologies: ["Wordpress", "CMS", "Canva", "AI Tools"],
@@ -28,11 +28,11 @@ const experiences = [
   },
   {
     period: "2023(Jan) — 2024(May)",
-    role: "CASHIER",
-    company: "DMART pvt ltd",
+    role: "Cashier",
+    company: "DMART PVT.LTD",
     description:
       "Billing And Maintain cash during working hours, providing excellent customer service, and ensuring accurate transactions at the point of sale.",
-    // technologies: ["Html5", "JavaScript", "Adobe Tools", "Figma"],
+    technologies: ["POS Systems", "Customer Service", "Cash Handling"],
     current: false,
   },
 ];
