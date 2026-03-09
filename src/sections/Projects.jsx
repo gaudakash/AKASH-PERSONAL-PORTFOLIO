@@ -2,40 +2,29 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "AI Resume Analyzer (ATS Optimization Tool)",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "./projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
+      "A serverless AI-powered resume analyzer that evaluates resumes against job descriptions and provides ATS compatibility insights. The platform processes uploaded PDF resumes, extracts content, and analyzes tone, structure, and keyword alignment with job requirements. It generates an ATS score out of 100 and delivers actionable suggestions to improve resume effectiveness. Built with React, TypeScript, Tailwind CSS, and Zustand for state management, while Puter.js handles authentication, cloud storage, and AI processing without requiring traditional backend infrastructure.",
+    image: "./projects/resume-analyzer.png",
+    tags: ["React", "TypeScript", "Tailwind", "Zustand", "Puter.js", "AI"],
+    link: "https://resume-analyzer-three-liard.vercel.app/",
+    github: "https://github.com/gaudakash/Resume-analyzer.git",
   },
   {
-    title: "E-Commerce Platform",
+    title: "Full Stack Tinder Clone",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "./projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
-  },
-  {
-    title: "AI Writing Assistant",
-    description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "./projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
-  },
-  {
-    title: "Project Management Tool",
-    description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "./projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
+      "A full-stack dating application inspired by Tinder featuring swipe-based interactions, real-time messaging, and secure profile management. Built with Next.js and Tailwind CSS for a fast, responsive frontend, while Supabase handles authentication, PostgreSQL database operations, and media storage. Implemented automated matching logic using database triggers and integrated Stream SDK for real-time chat and video calling between matched users.",
+    image: "./projects/tinder-clone.png",
+    tags: [
+      "Next.js",
+      "React",
+      "Tailwind",
+      "Supabase",
+      "PostgreSQL",
+      "Stream Chat",
+    ],
+    link: "https://tinder-app-amber.vercel.app/",
+    github: "https://github.com/gaudakash/Tinder-app.git",
   },
 ];
 
@@ -133,12 +122,16 @@ export const Projects = () => {
         </div>
 
         {/* View All CTA */}
-         <div className="text-center mt-12 animate-fade-in animation-delay-500">
-          <a href="https://github.com/gaudakash?tab=repositories" target="_blank" rel="noopener noreferrer">
-          <AnimatedBorderButton>
-            View All Projects
-            <ArrowUpRight className="w-5 h-5" />
-          </AnimatedBorderButton>
+        <div className="text-center mt-12 animate-fade-in animation-delay-500">
+          <a
+            href="https://github.com/gaudakash?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AnimatedBorderButton>
+              View All Projects
+              <ArrowUpRight className="w-5 h-5" />
+            </AnimatedBorderButton>
           </a>
         </div>
       </div>
