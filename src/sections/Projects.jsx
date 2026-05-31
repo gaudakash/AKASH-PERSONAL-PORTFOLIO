@@ -11,6 +11,22 @@ const projects = [
     github: "https://github.com/gaudakash/Resume-analyzer.git",
   },
   {
+    title: "Role-Based Task Management System",
+    description:
+      "A full-stack task management application featuring JWT-based authentication, role-based access control, and complete CRUD operations. Built with React and Vite for a fast, responsive frontend, while Django REST Framework handles secure API routing and business logic. Implemented a relational PostgreSQL database to support personal and assigned tasks, enforcing strict permission boundaries where assigners and assignees have distinct editing rights.",
+    image: "./projects/task-manager.jpeg",
+    tags: [
+      "React",
+      "Django",
+      "Python",
+      "PostgreSQL",
+      "REST API",
+      "JWT"
+    ],
+    link: "https://task-management-system-inky.vercel.app/",
+    github: "https://github.com/gaudakash/task-management-system",
+  },
+  {
     title: "Full Stack Tinder Clone",
     description:
       "A full-stack dating application inspired by Tinder featuring swipe-based interactions, real-time messaging, and secure profile management. Built with Next.js and Tailwind CSS for a fast, responsive frontend, while Supabase handles authentication, PostgreSQL database operations, and media storage. Implemented automated matching logic using database triggers and integrated Stream SDK for real-time chat and video calling between matched users.",
